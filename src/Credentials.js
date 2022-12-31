@@ -1,7 +1,7 @@
 export const authEndpoint = "https://accounts.spotify.com/authorize";
 
 const clientId = "78174be931524f8a9c82facd08689eb2";
-const redirectUri = "http://localhost:3000/";
+const redirectUri = "https://musiq.vercel.app/";
 
 const scopes = [
   "user-read-currently-playing",
